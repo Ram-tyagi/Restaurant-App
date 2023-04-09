@@ -5,10 +5,10 @@ import HeaderCartButton from './HeaderCartButton';
 const Header = (props) => {
   return (
     <Fragment>
-      <Header className={classes.header}>
+      <header className={classes.header}>
         <h1>React Meals</h1>
         <HeaderCartButton/>
-      </Header>
+      </header>
       <div className={classes['main-image']}>
         <img src={mealsImage} alt="table fulll of delecious food"/>
       </div>
